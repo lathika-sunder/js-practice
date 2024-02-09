@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.image-box img{
+    height: 20vh;
+    width: 20vh;
+   margin: 5vh;
+   cursor: pointer;
+   
+}
+img{
+    border: 0.5vh black solid;
+    border-radius: 25%;
+    padding: 2vh;
+}
+.result-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .image-box {
+      
+        display: flex;
+        flex-direction: column;
+    }
+}
