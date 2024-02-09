@@ -1,0 +1,53 @@
+{
+    "students": [
+      {
+        "name": "John Doe",
+        "age": 20,
+        "grade": "A",
+        "major": "Computer Science",
+        "email": "john.doe@example.com",
+        "city": "New York"
+      },
+      {
+        "name": "Jane Smith",
+        "age": 22,
+        "grade": "B+",
+        "major": "Mathematics",
+        "email": "jane.smith@example.com",
+        "city": "Los Angeles"
+      },
+      {
+        "name": "Alice Johnson",
+        "age": 21,
+        "grade": "A-",
+        "major": "Biology",
+        "email": "alice.johnson@example.com",
+        "city": "Chicago"
+      },
+      {
+        "name": "Bob Brown",
+        "age": 23,
+        "grade": "B",
+        "major": "History",
+        "email": "bob.brown@example.com",
+        "city": "Houston"
+      },
+      {
+        "name": "Eva Garcia",
+        "age": 20,
+        "grade": "B-",
+        "major": "English",
+        "email": "eva.garcia@example.com",
+        "city": "Miami"
+      },
+      {
+        "name": "Michael Lee",
+        "age": 24,
+        "grade": "C+",
+        "major": "Chemistry",
+        "email": "michael.lee@example.com",
+        "city": "San Francisco"
+      }
+    ]
+  }
+  

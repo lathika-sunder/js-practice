@@ -4,13 +4,7 @@ var a = 45;
 var b = 8;
 console.log(a + b);
 
-//On click functon
-// document.getElementById("change-btn").onclick = function() {
-//     alert("You just clicked me")
-// }
 
-// //use prompt to get input
-// var color=prompt("What is your favourite colour")
 
 //Funtions and arguments with while loop and for loop
 function fun(num) {
@@ -33,7 +27,7 @@ let no = null; //null
 //newline
 var result = "hey\nI am here";
 
-//array operations
+//string operations
 console.log(result);
 console.log(result.length);
 console.log(result.indexOf(89));
@@ -108,3 +102,87 @@ function getRandomColour() {
   }
   return color;
 }
+
+//Conditionals & Control flows
+var age=9
+
+if((age>=18))
+{
+    console.log("Eligible to vote")
+}
+else{
+    console.log("not eligible")
+}
+
+switch(4){
+    case 0:
+        console.log("monday");
+        break;
+    
+    case 4:
+        console.log("wednesday")
+        break;
+    default:
+        console.log( "unknown day") 
+}
+
+
+//JSON
+// JSON data representing student information
+var students= [
+      {
+        "name": "John Doe",
+        "age": 20,
+        "grade": "A",
+        "major": "Computer Science",
+        "email": "john.doe@example.com",
+        "city": "New York"
+      },
+      {
+        "name": "Jane Smith",
+        "age": 22,
+        "grade": "B+",
+        "major": "Mathematics",
+        "email": "jane.smith@example.com",
+        "city": "Los Angeles"
+      },
+      {
+        "name": "Alice Johnson",
+        "age": 21,
+        "grade": "A-",
+        "major": "Biology",
+        "email": "alice.johnson@example.com",
+        "city": "Chicago"
+      },
+      {
+        "name": "Bob Brown",
+        "age": 23,
+        "grade": "B",
+        "major": "History",
+        "email": "bob.brown@example.com",
+        "city": "Houston"
+      },
+      {
+        "name": "Eva Garcia",
+        "age": 20,
+        "grade": "B-",
+        "major": "English",
+        "email": "eva.garcia@example.com",
+        "city": "Miami"
+      },
+      {
+        "name": "Michael Lee",
+        "age": 24,
+        "grade": "C+",
+        "major": "Chemistry",
+        "email": "michael.lee@example.com",
+        "city": "San Francisco"
+      }
+    ]
+    console.log(students)
+  // Parse the JSON string into a JavaScript object 
+  var studentData = JSON.parse(students[1].age);
+  
+  // Now, you can work with the parsed data
+  console.log(studentData); // You can log it to see the parsed object
+  
