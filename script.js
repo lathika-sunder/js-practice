@@ -4,8 +4,6 @@ var a=45
 var b=8
 console.log(a+b)
 
-//Change value in html file
-document.getElementById("btn").innerHTML="Hey"
 
 //On click functon
 // document.getElementById("change-btn").onclick = function() {
@@ -27,7 +25,7 @@ function fun(num){
     {
         num++;
     }
-    document.getElementById("demo").innerHTML = num;
+    
 
 }
 
@@ -80,3 +78,23 @@ for(let num=0;num<10;num++)
     array.push(num)
 }
 console.log(array)
+
+
+//object operations
+let student={firName:'Lathika','lastName':'Sunder',age:19,city:"Chennai"}
+
+
+function  changeColour(){
+    var box=document.getElementById('box')
+    var color=getRandomColour();
+    box.style.backgroundColor=color;
+}
+function getRandomColour()
+{
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}

@@ -3,5 +3,21 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  
+  flex-direction: column;
+}
+.box{
+  height: 70vh;
+  width: 70vh;
+  border: 2px black;
+  background-color: aqua;
+}
+.change-btn{
+  border-radius: 2vh;
+  padding: 2vh;
+  font-size: 1em;
+  background-color: azure;
+  cursor: pointer;
+}
+.change-btn:hover{
+  box-shadow: 2 2 2 8;
 }
